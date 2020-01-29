@@ -6,10 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "test", "test framework", "javascript test framework", "react", "react test", "react test framework"],
+  "keywords": [
+    "javascript",
+    "test",
+    "test framework",
+    "javascript test framework"
+  ],
   "author": "Christopher Harold Butler",
   "license": "ISC",
   "bin": {
     "yajstf": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "jsdom": "^16.0.1"
   }
 }
