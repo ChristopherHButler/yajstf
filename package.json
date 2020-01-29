@@ -1,0 +1,15 @@
+{
+  "name": "yajstf",
+  "version": "1.0.0",
+  "description": "Yet Another JavaScript Testing Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "test", "test framework", "javascript test framework", "react", "react test", "react test framework"],
+  "author": "Christopher Harold Butler",
+  "license": "ISC",
+  "bin": {
+    "yajstf": "index.js"
+  }
+}
