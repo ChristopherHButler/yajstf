@@ -6,7 +6,7 @@
 
 yajstf is a very lightweight testing framework that is incredibly fast to get started with.
 
-If you are curious about how to write a testing framework, take a peek into the code and if you want to borrow any sourcce code just take a look at the terms and conditions in the [License](#license).
+If you are curious about how to write a testing framework, take a peek into the code and if you want to borrow any source code just take a look at the terms and conditions in the [License](#license).
 
 ## Getting Started
 
