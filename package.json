@@ -1,24 +1,38 @@
 {
   "name": "yajstf",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Yet Another JavaScript Testing Framework",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "javascript",
+    "jasmine",
+    "jsdom",
+    "jest",
+    "mocha",
     "test",
+    "testing",
     "test framework",
     "javascript test framework"
   ],
   "author": "Christopher Harold Butler",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherHButler/yajstf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristopherHButler/yajstf/issues"
+  },
+  "homepage": "https://github.com/ChristopherHButler/yajstf#readme",
   "bin": {
-    "yajstf": "index.js"
+    "jtf": "src/index.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
     "jsdom": "^16.0.1"
-  }
+  },
+  "devDependencies": {}
 }

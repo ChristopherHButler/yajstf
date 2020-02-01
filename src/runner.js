@@ -23,6 +23,17 @@ class Runner {
         beforeEaches.push(fn);
       };
 
+      global.test = async (desc, fn) => {
+        beforeEaches.forEach(func => func());
+        try {
+          await fn();
+          console.log(chalk.green(`✔︎  TEST - ${desc} - PASSED`));
+        } catch (error) {
+          console.log(chalk.red(`✘  TEST - ${desc} - FAILED`));
+          console.log(chalk.red(`\tERROR: ${error.message}`));
+        }
+      };
+
       global.it = async (desc, fn) => {
         beforeEaches.forEach(func => func());
         try {
